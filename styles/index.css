@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+header {
+    background-image: url(/images/img110.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(26, 25, 25, 0.4);
+    /* adjust the alpha to control visibility */
+    /* z-index: 1;  */
+}
+
+/* Navigation Bar */
+.nav-items span a {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.upper-list {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav-items.scrolled {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #F0EFEE;
+    color: rgb(3, 3, 3);
+    padding: 15px;
+    /* z-index: 1000; */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: orangered;
+}
+
+/* Welcome Text */
+.welcome-text {
+    color: white;
+    position: absolute;
+    justify-content: center;
+    /* Horizontal center */
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.change-textstyle1 {
+    font-weight: 500;
+    font-family: s;
+    font-size: 2.5rem;
+}
+
+.change-textstyle2 {
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 4rem;
+}
+
+.welcome-text button a {
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #F42F2C;
+    padding: 0.5rem 3rem;
+    border: none;
+    margin-top: 20px
+}
+
+.welcome-text button a:hover {
+    color: white;
+    background-color: #F42F2C;
+    border: none;
+}
+
+/* Main Section -Section 2 */
+#section2 {
+    background-color: #EFEFEF;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90%;
+    text-align: justify;
+    padding: 20px 40px;
+    width: 100%;
+    display: flex;
+    gap: 18rem;
+}
+
+.container1 {
+    width: 40%;
+}
+
+.contaner1 p {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.container1 h5 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.container1 button a {
+    text-decoration: none;
+    background-color: #F42F2C;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    padding: 0.9rem 3rem;
+    margin-top: 10rem;
+    font-weight: 200;
+}
+
+.container2 img {
+    margin: 20px 30px;
+    border-radius: 2rem;
+    border: 1px solid #ccc
+}
+
+/* Section 3 -Experience the restaurant */
+.section3 {
+    background-image: url(/images/back2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.overlay-sec3{
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    background-color: rgba(19, 19, 19, 0.4);
+    z-index: 1;
+}
+/* first image and text */
+.sec3-image1 img{
+    margin: 10px 10px;
+    border-radius: 1rem;
+    border: 1px solid #ccc
+}
+
+.sec3-image1 p{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 15px;
+    margin:10px 10px;
+}
+/* second image and text */
+.sec3-image2 img{
+    margin: 60px 10px;
+    border-radius: 1rem;
+    border: 1px solid #ccc
+}
+
+.sec3-image2 p{
+    font-weight: bold;
+    font-family: cursive;
+    font-size:15px;
+    margin:10px 10px;
+}
+
+/* third image and text */
+.sec3-image3 img{
+    margin: 100px 10px;
+    border-radius: 1rem;
+    border: 1px solid #ccc
+}
+
+.sec3-image3 p{
+    font-weight: bold;
+    font-family: cursive;
+    font-size:15px;
+    margin:10px 10px;
+}
+
+/* Section 3 Text */
+.sec3-container1{
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 2rem;
+    width:40%;
+}
+
+.sec3-container1 h6{
+    font-size: 3rem;
+    font-weight: 300;
+    color: black;
+}
+
+.sec3-container1 h5{
+    font-size: 20px;
+    color:white;
+    margin-top: 15px;
+    font-weight: 300;
+}
+
