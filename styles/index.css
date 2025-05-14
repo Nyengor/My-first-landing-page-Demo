@@ -19,8 +19,6 @@ header {
     height: 100%;
     width: 100%;
     background-color: rgba(26, 25, 25, 0.4);
-    /* adjust the alpha to control visibility */
-    /* z-index: 1;  */
 }
 
 /* Navigation Bar */
@@ -37,24 +35,16 @@ header {
 }
 
 .nav-items {
+    background-color: #F42F2C;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 20px;
+    height: 50px;
     position: fixed;
     width: 100%;
-    z-index: 999;
-}
-
-.nav-items.scrolled {
-    position: relative;
-    top: 0;
     left: 0;
-    width: 100%;
-    background: #F0EFEE;
-    color: rgb(3, 3, 3);
-    padding: 15px;
-    /* z-index: 1000; */
+    right: 0;
 }
 
 nav a {
@@ -63,19 +53,18 @@ nav a {
 }
 
 nav a:hover {
-    color: orangered;
+    color:black;
 }
 
 /* Welcome Text */
 .welcome-text {
     color: white;
-    position: absolute;
     justify-content: center;
-    /* Horizontal center */
+    position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
-    transform: translate(-50%, -50%);
 }
 
 .change-textstyle1 {
@@ -92,7 +81,7 @@ nav a:hover {
 
 .welcome-text button a {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 8px;
     text-decoration: none;
     color: #F42F2C;
     padding: 0.5rem 3rem;
@@ -144,6 +133,7 @@ nav a:hover {
     padding: 0.9rem 3rem;
     margin-top: 10rem;
     font-weight: 200;
+    border-radius: 8px;
 }
 
 .container2 img {
@@ -162,14 +152,6 @@ nav a:hover {
     flex-direction: row;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
-
-/* .overlay-sec3{
-    position: absolute;
-    height: 90%;
-    width: 100%;
-    background-color: rgba(19, 19, 19, 0.4);
-    z-index: 1;
-} */
 
 .sec3-images{
     width: 60%;
@@ -245,13 +227,13 @@ nav a:hover {
 }
 
 .sec3-container1 h6{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 300;
     color: black;
 }
 
 .sec3-container1 h5{
-    font-size: 35px;
+    font-size: 25px;
     color:white;
     margin-top: 15px;
     font-weight: 300;
@@ -267,6 +249,16 @@ background-size: cover;
 height: 100vh;
 }
 
+/* Section 4 TEXT MAIN */
+.sec4-text{
+    background-color: #F42F2C;
+      padding: 10px 20px;          /* Space around the text */
+      display: inline-block;       /* Shrinks to fit the content */
+      color: white;                /* Text color */
+      font-size: 20px;             /* Optional: Adjust font size */
+      border-radius: 8px;  
+
+}
 .sec4-images{
     overflow: hidden;
     align-items: center;
@@ -284,6 +276,7 @@ height: 100vh;
     flex-direction: row;
     width: 100% ;
     justify-content: space-evenly;
+    justify-items: auto;
 }
 
 
@@ -297,8 +290,17 @@ height: 100vh;
 
 .sec4-img1 img{
     width : 300px;
-    height: auto;
+    height: 25vh;
     display: block;
+    transition: 2s;
+}
+
+.sec4-img1 img:hover{
+    transform: scale(1.08);
+}
+
+.textimg1{
+    height: 15vh;
 }
 
 .sec4-img2 {
@@ -311,8 +313,17 @@ height: 100vh;
 
 .sec4-img2 img{
     width : 300px;
-    height: auto;
+    height: 25vh;
     display: block;
+    transition: 2s;
+}
+.sec4-img2 img:hover{
+    transform: scale(1.08);
+}
+
+
+.textimg2{
+    height: 15vh;
 }
 
 .sec4-img3 {
@@ -325,8 +336,17 @@ height: 100vh;
 
 .sec4-img3 img{
     width : 300px;
-    height: auto;
+    height: 25vh;
     display: block;
+    transition: 2s;
+}
+
+.sec4-img3 img:hover{
+    transform: scale(1.08);
+}
+
+.textimg3{
+    height: 15vh;
 }
 
 .sec4-img4 {
@@ -339,8 +359,17 @@ height: 100vh;
 
 .sec4-img4 img{
     width : 300px;
-    height: auto;
+    height: 25vh;
     display: block;
+    transition: 2s;
+}
+
+.sec4-img4 img:hover{
+    transform: scale(1.08);
+}
+
+.textimg4{
+    height: 15vh;
 }
 
 .sec4-img5 {
@@ -353,8 +382,17 @@ height: 100vh;
 
 .sec4-img5 img{
     width : 300px;
-    height: auto;
+    height: 25vh;
     display: block;
+    transition: 2s;
+}
+
+.sec4-img5 img:hover{
+    transform: scale(1.08);
+}
+
+.textimg5{
+    height: 15vh;
 }
 
 .sec4-img6 {
@@ -367,6 +405,16 @@ height: 100vh;
 
 .sec4-img6 img{
     width : 300px;
-    height: auto;
+    height: 25vh;
     display: block;
+    transition: 2s;
+} 
+
+.sec4-img6 img:hover{
+    transform: scale(1.08);
 }
+
+.textimg6{
+    height: 15vh;
+}
+    
