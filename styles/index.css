@@ -7,8 +7,8 @@
     box-sizing: border-box;
 }
 
-/* Header Section */
-header {
+/* Hero Section */
+.hero-section {
     background-image: url(/Images/img6.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -31,20 +31,20 @@ header {
     font-family: Merienda;
     background-color: transparent ;
     border-radius: 8px;
-    border: 2px solid white;
+    border: 2px solid #ed0e0a;
     padding: 5px 5px;
-    color: white;
+    color: #ed0e0a;
 }
 
 .upper-list {
     display: flex;
     gap: 2rem;
     list-style-type: none;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .nav-items {
-    background-color: #F42F2C;
+    background-color: #e9cd19;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,7 +68,6 @@ nav a:hover {
 
 /* Welcome Text */
 .welcome-text {
-    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -80,6 +79,7 @@ nav a:hover {
     font-weight: 700;
     font-family: Merienda;
     font-size: 2.5rem;
+    color: white;
 }
 
 .change-textstyle2 {
@@ -87,13 +87,14 @@ nav a:hover {
     font-family: Merienda;
     font-size: 4rem;
     margin-bottom: 40px;
+    color: #ed0e0a;
 }
 
 .welcome-text button a {
     background-color: white;
     border-radius: 8px;
     text-decoration: none;
-    color: #F42F2C;
+    color: #ed0e0a;
     padding: 0.5rem 3rem;
     border: none;
 
@@ -101,14 +102,13 @@ nav a:hover {
 
 .welcome-text button a:hover {
     color: white;
-    background-color: #F42F2C;
+    background-color: #ed0e0a;
     border: none;
 }
 
-/* Main Section -Section 2 */
-#section2 {
+/* Second Section -Section 2 */
+.section2 {
     background-color: #EFEFEF;
-    background-attachment: fixed;
     background-size: cover;
     height: 90%;
     text-align: justify;
@@ -131,19 +131,20 @@ nav a:hover {
 
 .container1 h5 {
     font-size: 20px;
-    color: #444;
+    color: #e9cd19;
     margin-bottom: 25px;
     font-family: Open Sans;
 }
 
 .container1 button a {
     text-decoration: none;
-    background-color: #F42F2C;
+    background-color: #ed0e0a;
     text-decoration: none;
     text-transform: capitalize;
     color: white;
     padding: 0.9rem 3rem;
     margin-top: 10rem;
+    font-size: 15px;
     font-weight: 200;
     border-radius: 8px;
     font-family: Open Sans;
@@ -157,8 +158,8 @@ nav a:hover {
 
 /* Section 3 -Experience the restaurant */
 .section3 {
-    background-color: #F42F2C;
-    height: 90vh;
+    background-color: #e9cd19;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
@@ -243,7 +244,7 @@ nav a:hover {
 
 .sec3-container1 h5{
     font-size: 25px;
-    color:white;
+    color:#ed0e0a;
     margin-top: 15px;
     font-weight: 300;
     font-family: Open Sans;
@@ -265,7 +266,7 @@ justify-content: center;
 
 /* Section 4 TEXT MAIN */
 .sec4-text{
-    background-color: #F42F2C;
+    background-color: #ed0e0a;
       padding: 10px 20px;          /* Space around the text */
       display: inline-block;       /* Shrinks to fit the content */
       color: white;                /* Text color */
@@ -289,6 +290,7 @@ justify-content: center;
     width: 100%;
     justify-content: space-evenly;
     margin-bottom: 40px;
+    font-family: Merienda;
     
 }
 
@@ -298,6 +300,7 @@ justify-content: center;
     width: 100% ;
     justify-content: space-evenly;
     margin-bottom: 40px;
+    font-family: Merienda;
 }
 
 
@@ -307,6 +310,7 @@ justify-content: center;
     overflow: hidden;
     box-shadow: rgb(20, 19, 19) ;
     background-color: #EFEFEF;
+    border: 2px solid #e9cd19;
 }
 
 .sec4-img1 img{
@@ -322,7 +326,6 @@ justify-content: center;
 
 .textimg1{
     height: 15vh;
-    font-family: Open Sans;
     font-size: 18px;
 }
 
@@ -337,7 +340,7 @@ justify-content: center;
 }
     
 .textimg1 button:hover{
-    background-color: #F42F2C;
+    background-color: #ed0e0a;
     color: white;
 }
 
@@ -347,6 +350,7 @@ justify-content: center;
     overflow: hidden;
     box-shadow: rgb(20, 19, 19) ;
     background-color: #EFEFEF;
+    border: 2px solid #e9cd19;
 }
 
 .sec4-img2 img{
@@ -362,12 +366,11 @@ justify-content: center;
 
 .textimg2{
     height: 15vh;
-    font-family: Open Sans;
     font-size: 18px;
 }
 
 .textimg2 p{
-    color: #F42F2C;
+    color: #ed0e0a;
     font-weight:600;
 }
 .textimg2 button{
@@ -377,7 +380,7 @@ justify-content: center;
 }
     
 .textimg2 button:hover{
-    background-color: #F42F2C;
+    background-color: #ed0e0a;
     color: white;
 }
 .sec4-img3 {
@@ -386,6 +389,7 @@ justify-content: center;
     overflow: hidden;
     box-shadow: rgb(20, 19, 19) ;
     background-color: #EFEFEF;
+    border: 2px solid #e9cd19;
 }
 
 .sec4-img3 img{
@@ -401,12 +405,11 @@ justify-content: center;
 
 .textimg3{
     height: 15vh;
-    font-family: Open Sans;
     font-size: 18px;
 }
 
 .textimg3 p{
-    color: #F42F2C;
+    color: #ed0e0a;
     font-weight:600;
 }
 .textimg3 button{
@@ -416,7 +419,7 @@ justify-content: center;
 }
     
 .textimg3 button:hover{
-    background-color: #F42F2C;
+    background-color: #ed0e0a;
     color: white;
 }
 .sec4-img4 {
@@ -425,6 +428,7 @@ justify-content: center;
     overflow: hidden;
     box-shadow: rgb(20, 19, 19) ;
     background-color: #EFEFEF;
+    border: 2px solid #e9cd19;
 }
 
 .sec4-img4 img{
@@ -440,12 +444,11 @@ justify-content: center;
 
 .textimg4{
     height: 15vh;
-    font-family: Open Sans;
     font-size: 18px;
 }
 
 .textimg4 p{
-    color: #F42F2C;
+    color: #ed0e0a;
     font-weight:600;
 }
 
@@ -456,7 +459,7 @@ justify-content: center;
 }
     
 .textimg4 button:hover{
-    background-color: #F42F2C;
+    background-color:#ed0e0a;
     color: white;
 }
 .sec4-img5 {
@@ -465,6 +468,7 @@ justify-content: center;
     overflow: hidden;
     box-shadow: rgb(20, 19, 19) ;
     background-color: #EFEFEF;
+    border: 2px solid #e9cd19;
 }
 
 .sec4-img5 img{
@@ -480,12 +484,11 @@ justify-content: center;
 
 .textimg5{
     height: 15vh;
-    font-family: Open Sans;
     font-size: 18px;
 }
 
 .textimg5 p{
-    color: #F42F2C;
+    color: #ed0e0a;
     font-weight:600;
 }
 .textimg5 button{
@@ -495,7 +498,7 @@ justify-content: center;
 }
     
 .textimg5 button:hover{
-    background-color: #F42F2C;
+    background-color: #ed0e0a;
     color: white;
 }
 .sec4-img6 {
@@ -504,6 +507,7 @@ justify-content: center;
     overflow: hidden;
     box-shadow: rgb(20, 19, 19) ;
     background-color: #EFEFEF;
+    border: 2px solid #e9cd19;
 }
 
 .sec4-img6 img{
@@ -519,12 +523,11 @@ justify-content: center;
 
 .textimg6{
     height: 15vh;
-    font-family: Open Sans;
     font-size: 18px;
 }
 
 .textimg6 p{
-    color: #F42F2C;
+    color: #ed0e0a;
     font-weight:600;
 }
 
@@ -535,6 +538,40 @@ justify-content: center;
 }
     
 .textimg6 button:hover{
-    background-color: #F42F2C;
+    background-color: #ed0e0a;
     color: white;
+}
+
+
+footer{
+    background-color: #1A1A1A ;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ 
+}
+
+.sec5-container2 ul li a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.sec5-container1 {
+        width: 15%;
+}
+
+.sec5-container2 {
+        width: 15%;
+}
+.sec5-container3 {
+        width: 15%
+}
+
+.sec5-container4 {
+        width: 15%;
+}
+
+.sec5-container5 {
+        width: 15%;
 }
