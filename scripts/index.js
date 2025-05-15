@@ -1,10 +1,11 @@
-ocument.addEventListener('scroll',function() {
+document.addEventListener('scroll', function () {
     // console.log(window.scrollY);
-    if (window.scrollY > 70) {
+    if (window.scrollY > 150) {
         // change nav bar bg to blue
-        document.getElementById("nav").style.backgroundColor = "#ed0e0a";
+        document.getElementById("navbar").style.backgroundColor = "orange";
     }
     else {
         // change nav bar to transparent
-        document.getElementById("nav").style.backgroundColor = "transparent";
+        document.getElementById("navbar").style.backgroundColor = "transparent";
     }
+});
