@@ -573,118 +573,8 @@ nav a:hover {
     color: white;
 }
 
-/* Footer for the page- section 5 */
-footer {
-    background-color: #1A1A1A;
-    height: 50vh;
-    width: 100%;
-
-}
-
+/* Section 5*/
 .section5 {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.sec5-container1 {
-    width: 15%;
-}
-
-.sec5-container1 h5 {
-    color: white;
-    font-weight: 600;
-    font-size: 18px;
-    margin-bottom: 30px;
-    font-family: Open Sans;
-}
-
-.sec5-container1 p {
-    color: #77776C;
-    /* font-weight: 800; */
-    font-size: 14px;
-    font-family: Open Sans;
-}
-
-.sec5-container2 {
-    width: 15%;
-}
-
-.sec5-container2 h5 {
-    color: white;
-    font-weight: 600;
-    font-size: 18px;
-    margin-bottom: 30px;
-    font-family: Open Sans;
-}
-
-.footer1-list a {
-    text-decoration: none;
-    color: #77776C;
-    font-size: 14px;
-    font-family: Open Sans;
-}
-
-.sec5-container3 {
-    width: 15%
-}
-
-.sec5-container3 h5 {
-    color: white;
-    font-weight: 600;
-    font-size: 18px;
-    margin-bottom: 30px;
-    font-family: Open Sans;
-}
-
-.footer2-list a {
-    text-decoration: none;
-    color: #77776C;
-    font-size: 14px;
-    font-family: Open Sans;
-}
-
-.sec5-container4 {
-    width: 15%;
-}
-
-.sec5-container4 h5 {
-    color: white;
-    font-weight: 600;
-    font-size: 18px;
-    margin-bottom: 30px;
-    font-family: Open Sans;
-}
-
-.footer3-list a {
-    text-decoration: none;
-    color: #77776C;
-    font-size: 14px;
-    font-family: Open Sans;
-}
-
-.sec5-container5 {
-    width: 15%;
-}
-
-.sec5-container5 h5 {
-    color: white;
-    font-weight: 600;
-    font-size: 18px;
-    margin-bottom: 30px;
-    font-family: Open Sans;
-}
-
-.footer4-list a {
-    text-decoration: none;
-    color: #77776C;
-    font-size: 14px;
-    font-family: Open Sans;
-}
-
-/* Section 5 but named 6 */
-.section6 {
     background-image: url(/Images/asset1.png);
     background-attachment: scroll;
     background-position: center;
@@ -692,18 +582,20 @@ footer {
     height: 604.688px;
 }
 
-.textwrap-sec6 {
+.textwrap-sec5 {
     text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 
-.textwrap-sec6 p {
+.textwrap-sec5 p {
     color: orange;
     font-size: 30px;
     font-family: Merienda;
-    margin-top: 40px;
+    
 }
 
-.textwrap-sec6 h2 {
+.textwrap-sec5 h2 {
     color: black;
     font-size: 40px;
     font-family: Open Sans;
@@ -722,7 +614,7 @@ footer {
     justify-content: space-evenly;
 }
 
-.container1-sec6 select {
+.container1-sec5 select {
     border: none;
     text-decoration: none;
     background-color: #F9F9F9;
@@ -744,7 +636,7 @@ div input {
     width: 250px;
 }
 
-.container3-sec6 select {
+.container3-sec5 select {
     border: none;
     text-decoration: none;
     background-color: #F9F9F9;
@@ -755,7 +647,7 @@ div input {
     width: 250px;
 }
 
-.button-sec6 button {
+.button-sec5 button {
     border: none;
     text-decoration: none;
     background-color: orange;
@@ -766,5 +658,116 @@ div input {
     font-size: 15px;
     font-weight: 200;
     border-radius: 8px;
+    font-family: Open Sans;
+}
+
+
+/* Footer for the page- section 6 */
+footer {
+    background-color: #1A1A1A;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.section6 {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.sec6-container1 {
+    width: 15%;
+}
+
+.sec6-container1 h5 {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-family: Open Sans;
+}
+
+.sec6-container1 p {
+    color: #77776C;
+    font-size: 12px;
+    font-family: Open Sans;
+}
+
+.sec6-container2 {
+    width: 15%;
+}
+
+.sec6-container2 h5 {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-family: Open Sans;
+}
+
+.footer1-list a {
+    text-decoration: none;
+    color: #77776C;
+    font-size: 12px;
+    font-family: Open Sans;
+}
+
+.sec6-container3 {
+    width: 15%
+}
+
+.sec6-container3 h5 {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-family: Open Sans;
+}
+
+.footer2-list a {
+    text-decoration: none;
+    color: #77776C;
+    font-size: 12px;
+    font-family: Open Sans;
+}
+
+.sec6-container4 {
+    width: 15%;
+}
+
+.sec6-container4 h5 {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-family: Open Sans;
+}
+
+.footer3-list a {
+    text-decoration: none;
+    color: #77776C;
+    font-size: 12px;
+    font-family: Open Sans;
+}
+
+.sec6-container5 {
+    width: 15%;
+}
+
+.sec6-container5 h5 {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-family: Open Sans;
+}
+
+.footer4-list a {
+    text-decoration: none;
+    color: #77776C;
+    font-size: 12px;
     font-family: Open Sans;
 }
