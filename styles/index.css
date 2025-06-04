@@ -30,7 +30,7 @@ html{
 
 /* Navigation Bar */
 .nav-items span a {
-    font-size: 20px;
+    /* font-size: 20px; */
     font-weight: bold;
     font-family: Merienda;
     background-color: transparent;
@@ -41,7 +41,7 @@ html{
 }
 
 .upper-list {
-    display: flex;
+    /* display: flex; */
     gap: 2rem;
     list-style-type: none;
     font-weight: bold;
@@ -84,14 +84,14 @@ nav a:hover {
 .change-textstyle1 {
     font-weight: 700;
     font-family: Merienda;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     color: white;
 }
 
 .change-textstyle2 {
     font-weight: 800;
     font-family: Merienda;
-    font-size: 4rem;
+    /* font-size: 4rem; */
     margin-bottom: 40px;
     color: orange;
 }
@@ -129,7 +129,7 @@ nav a:hover {
 }
 
 .container1 {
-    width: 40%;
+    /* width: 40%; */
 }
 
 .container1 p {
@@ -180,9 +180,7 @@ nav a:hover {
 /* Section 3 -Experience the restaurant */
 .section3 {
     background-color: orange;
-    height: 80vh;
-    display: flex;
-    flex-direction: row;
+    /* height: 80vh; */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
@@ -190,8 +188,6 @@ nav a:hover {
     width: 60%;
     margin: auto;
     justify-content: space-evenly;
-    display: flex;
-    flex-direction: row;
 }
 
 /* first image and text */
@@ -253,7 +249,7 @@ nav a:hover {
     justify-content: flex-start;
     align-items: center;
     padding: 0 2rem;
-    width: 40%;
+    /* width: 40%; */
     margin: auto;
 
 }
@@ -275,12 +271,10 @@ nav a:hover {
 
 
 /* Section 4 */
-/* overflow:hidden, align-items */
 .section4 {
     background-color: white;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -302,31 +296,10 @@ nav a:hover {
 }
 
 .sec4-images {
-    overflow: hidden;
     align-items: center;
     width: 80%;
 
 }
-
-.group1-sec4images {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-evenly;
-    margin-bottom: 25px;
-    font-family: Merienda;
-
-}
-
-.group2-sec4images {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-evenly;
-    margin-bottom: 40px;
-    font-family: Merienda;
-}
-
 
 .sec4-img1 {
     width: 300px;
@@ -351,6 +324,7 @@ nav a:hover {
 .textimg1 {
     height: 10vh;
     font-size: 18px;
+    font-family: Merienda;
 
 }
 
@@ -394,6 +368,7 @@ nav a:hover {
 .textimg2 {
     height: 10vh;
     font-size: 18px;
+    font-family: Merienda;
 }
 
 .textimg2 p {
@@ -435,6 +410,7 @@ nav a:hover {
 .textimg3 {
     height: 10vh;
     font-size: 18px;
+    font-family: Merienda;
 }
 
 .textimg3 p {
@@ -476,6 +452,7 @@ nav a:hover {
 .textimg4 {
     height: 10vh;
     font-size: 18px;
+    font-family: Merienda;
 }
 
 .textimg4 p {
@@ -518,6 +495,7 @@ nav a:hover {
 .textimg5 {
     height: 10vh;
     font-size: 18px;
+    font-family: Merienda;
 }
 
 .textimg5 p {
@@ -559,6 +537,7 @@ nav a:hover {
 .textimg6 {
     height: 10vh;
     font-size: 18px;
+    font-family: Merienda;
 }
 
 .textimg6 p {
@@ -608,7 +587,6 @@ nav a:hover {
 .booking-wrap {
     display: flex;
     flex-direction: row;
-    width: 80%;
     height: 205px;
     background-color: white;
     padding-top: 80px;
@@ -626,7 +604,7 @@ nav a:hover {
     padding: 20px 20px;
     font-size: 16px;
     border-radius: 4px;
-    width: 250px;
+    
 }
 
 div input {
@@ -637,7 +615,6 @@ div input {
     padding: 20px 20px;
     font-size: 16px;
     border-radius: 4px;
-    width: 250px;
 }
 
 .container3-sec5 select {
@@ -648,7 +625,6 @@ div input {
     padding: 20px 20px;
     font-size: 16px;
     border-radius: 4px;
-    width: 250px;
 }
 
 .button-sec5 button {
@@ -658,7 +634,7 @@ div input {
     text-decoration: none;
     text-transform: capitalize;
     color: white;
-    padding: 0.9rem 3rem;
+    /* padding: 0.9rem 3rem; */
     font-size: 15px;
     font-weight: 200;
     border-radius: 8px;
@@ -669,7 +645,7 @@ div input {
 /* Footer for the page- section 6 */
 footer {
     background-color: #1A1A1A;
-    height: 50vh;
+    /* height: 50vh; */
     width: 100%;
 
 }

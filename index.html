@@ -7,15 +7,16 @@
     <title> Restaurant </title>
     <link rel="stylesheet" href="./styles/index.css">
     <script defer src="./scripts/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
-    <section id="home" class="hero-section">
+    <section id="home" class="hero-section sm:bg-center">
         <div class="overlay">
             <nav id="navbar" class="nav-items">
-                <span><a href="index.html"> Fork & Folklore </a></span>
+                <span><a href="index.html" class="md:text-2xl"> Fork & Folklore </a></span>
 
-                <ul class="upper-list">
+                <ul class="upper-list hidden md:flex">
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#gallery">GALLERY</a></li>
@@ -25,16 +26,16 @@
                 </ul>
             </nav>
 
-            <div class="welcome-text">
-                <h2 class="change-textstyle1"> Welcome to</h2> <br>
-                <h1 class="change-textstyle2">Fork & Folklore</h1>
+            <div class="welcome-text ">
+                <h2 class="change-textstyle1 md:text-4xl"> Welcome to</h2> <br>
+                <h1 class="change-textstyle2  sm:text-5xl ">Fork & Folklore</h1>
                 <button><a href="#">Check Menu</a></button>
             </div>
         </div>
     </section>
 
-    <section id="about" class="section2">
-        <div class="container1">
+    <section id="about" class="section2 ">
+        <div class="container1 sm:w-[ 100%] sm:m-auto">
             <p>About Our Restaurant</p>
             <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, corrupti aliquid ad atque nisi
                 reiciendis impedit alias inventore tempore quidem quas temporibus dolore unde reprehenderit dolor enim
@@ -44,104 +45,103 @@
                 perspiciatis quibusdam suscipit nihil impedit omnis.</h5>
             <button><a href="#">More On Our Story</a></button>
         </div>
-        <div class="container2">
+        <div class="container2 hidden sm:block md:w-full">
             <img src="./Images/img9.jpg" alt="Our restaurant image" width="400" height="400">
         </div>
     </section>
 
-    <section id="gallery" class="section3">
-        <div class="sec3-images">
-            <div class="sec3-image1">
-                <img src="./Images/img10.jpg" alt="Our restaurant image" width="250" height="350">
+    <section id="gallery" class="section3 sm:flex sm:flex-col md:flex md:flex-row h-full md:h-[80vh]">
+        <div class="sec3-images sm:flex sm:flex-col md:flex md:flex-row md:w-[60%]">
+            <div class="sec3-image1  md:w-[30%]">
+                <img src="./Images/img10.jpg" alt="Our restaurant image">
                 <p>ROMANCTIC RESTAURANT</p>
             </div>
 
-            <div class="sec3-image2">
-                <img src="./Images/img30.jpg" alt="Our restaurant image" width="250" height="350">
+            <div class="sec3-image2 sm:w-full md:w-[30%]">
+                <img src="./Images/img30.jpg" alt="Our restaurant image">
                 <p>EXCLUSIVE EXPERIENCE</p>
             </div>
 
-            <div class="sec3-image3">
-                <img src="./Images/Img40.jpg" alt="Our restaurant image" width="250" height="350">
+            <div class="sec3-image3 sm:w-full md:w-[30%]">
+                <img src="./Images/Img40.jpg" alt="Our restaurant image">
                 <p>DELICIOUS FOOD</p>
             </div>
         </div>
-        <div class="sec3-container1">
+        <div class="sec3-container1 md:w-[40%]">
             <h6>Taste The Difference,<br> Love The Experience</h6>
             <h5>From the finest ingredients to unforgettable flavors, every bite is a journey — a carefully crafted
                 experience designed to delight your senses and create lasting memories.</h5>
         </div>
     </section>
 
-    <section id="menu" class="section4">
+    <section id="menu" class="section4 md:h-full ">
         <div class="sec4-text">
             <h6> DISCOVER OUR MENU </h6>
         </div>
-        <div class="sec4-images">
-            <div class="group1-sec4images">
+        <div class="sec4-images grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4  gap-y-6 md:gap-y-8">
 
 
-                <div class="sec4-img1">
-                    <img src="./Images/img55.jpg" alt="Our Menu">
-                    <div class="textimg1">
-                        <p>STARTERS</p>
-                        <a href="#"><button>View Menu</button></a>
-                    </div>
-                </div>
-
-                <div class="sec4-img2">
-                    <img src="./Images/Img32.jpg" alt="Our Menu">
-                    <div class="textimg2">
-                        <p>LUNCH</p>
-                        <a href="#"><button>View Menu</button></a>
-                    </div>
-                </div>
-
-                <div class="sec4-img3">
-                    <img src="./Images/img44.jpg" alt="Our Menu">
-                    <div class="textimg3">
-                        <p>DINNER</p>
-                        <a href="#"><button>View Menu</button></a>
-                    </div>
+            <div class="sec4-img1">
+                <img src="./Images/img55.jpg" alt="Our Menu">
+                <div class="textimg1">
+                    <p>STARTERS</p>
+                    <a href="#"><button>View Menu</button></a>
                 </div>
             </div>
 
-            <div class="group2-sec4images">
-                <div class="sec4-img4">
-                    <img src="./Images/img45.jpg" alt="Our Menu">
-                    <div class="textimg4">
-                        <p>DRINKS</p>
-                        <a href="#"><button>View Menu</button></a>
-                    </div>
+            <div class="sec4-img2">
+                <img src="./Images/Img32.jpg" alt="Our Menu">
+                <div class="textimg2">
+                    <p>LUNCH</p>
+                    <a href="#"><button>View Menu</button></a>
+                </div>
+            </div>
+
+            <div class="sec4-img3">
+                <img src="./Images/img44.jpg" alt="Our Menu">
+                <div class="textimg3">
+                    <p>DINNER</p>
+                    <a href="#"><button>View Menu</button></a>
+                </div>
+            </div>
+
+
+
+            <div class="sec4-img4">
+                <img src="./Images/img45.jpg" alt="Our Menu">
+                <div class="textimg4">
+                    <p>DRINKS</p>
+                    <a href="#"><button>View Menu</button></a>
+                </div>
+            </div>
+
+            <div class="sec4-img5">
+                <img src="./Images/img56.jpg" alt="Our Menu">
+                <div class="textimg5">
+                    <p>DESSERTS</p>
+                    <a href="#"><button>View Menu</button></a>
+                </div>
+            </div>
+
+            <div class="sec4-img6">
+                <img src="./Images/img37.jpg" alt="Our Menu">
+                <div class="textimg6">
+                    <p>HAPPY HOUR</p>
+                    <a href="#"><button>View Menu</button></a>
                 </div>
 
-                <div class="sec4-img5">
-                    <img src="./Images/img56.jpg" alt="Our Menu">
-                    <div class="textimg5">
-                        <p>DESSERTS</p>
-                        <a href="#"><button>View Menu</button></a>
-                    </div>
-                </div>
-
-                <div class="sec4-img6">
-                    <img src="./Images/img37.jpg" alt="Our Menu">
-                    <div class="textimg6">
-                        <p>HAPPY HOUR</p>
-                        <a href="#"><button>View Menu</button></a>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <section id="reservation"  class="section5">
+    <section id="reservation" class="section5">
         <div class="textwrap-sec5">
-            <p >Reservation</p>
+            <p>Reservation</p>
             <h2>Book A Table</h2>
         </div>
 
-        <div class="booking-wrap">
-            <div class="container1-sec5">
+        <div class="booking-wrap sm:w-[30%] md:w-[80%]">
+            <div class="container1-sec5 w-[20%]">
                 <select name="person" id="personselesct">
                     <option value="person">Person </option>
                     <option value="person2">Person 2</option>
@@ -150,11 +150,11 @@
                 </select>
             </div>
 
-            <div>
+            <div class="w-[20%]">
                 <input type="date" id="date" name="date">
             </div>
 
-            <div class="container3-sec5">
+            <div class="container3-sec5 w-[20%]">
                 <select name="Location" id="Location">
                     <option value="Location">Location </option>
                     <option value="Location2">Location 2</option>
@@ -163,7 +163,7 @@
                 </select>
             </div>
 
-            <div class="button-sec5">
+            <div class="button-sec5 w-[20%] px-4 py-4">
                 <a href="#"><button>Book Now</button></a>
             </div>
 
@@ -171,10 +171,10 @@
     </section>
 
     <footer>
-        <div id="contact" class="section6">
+        <div id="contact" class="section6 md:h-[50vh]">
             <div class="sec6-container1">
                 <h5>About Fork & Folklore</h5>
-                <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question
+                <p class>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question
                     Marks
                     and devious Semikoli, but the Little Blind Text did not listen.</p>
             </div>
